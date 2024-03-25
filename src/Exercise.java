@@ -6,7 +6,7 @@ public class Exercise {
 
         ArrayList<String> arrayList = new ArrayList(10);
         arrayList.add("infp");
-        arrayList.add("enfp");
+        arrayList.add("enfp1");
 
         for(int i = 0; i < arrayList.size();i++){
             System.out.println(arrayList.get(i));
