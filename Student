@@ -1,0 +1,18 @@
+public class Student extends Person {
+
+    private String name;
+
+    Student(float tall, float weight, String name) {
+        super(tall, weight);
+        this.name = name;
+    }
+
+    public void printIntro(){
+        System.out.println("이름: "+name+" 키: "+getTall()+" 몸무게: "+getWeight()+" bmi: "+getBMI());
+    }
+
+    @Override
+    public void say() {
+        System.out.println("안녕");
+    }
+}
